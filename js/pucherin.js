@@ -9,19 +9,19 @@ function inicio(){
     introduccion.innerHTML = "¿Cuántos jugadores vais a ser?";
 }
 
-
+ 
 function pucheros(){
-    pucheros = new Array (new puchero,new puchero,new puchero,new puchero,new puchero,
-        new puchero,new puchero,new puchero,new puchero,new puchero);
+    pucheros = new Array (new Puchero,new Puchero,new Puchero,new Puchero,new Puchero,
+        new Puchero,new Puchero,new Puchero,new Puchero,new Puchero);
     
     for(let i = 2; i <= 11; i++){
-        pucheros[i].puchero.numero=i;
+        pucheros[i].Puchero.numero=i;
         if(i!=7)
-            pucheros[i].puchero.casillasMax=i;
+            pucheros[i].Puchero.casillasMax=i;
         else
-            pucheros[i].puchero.casillasMax=50;
+            pucheros[i].Puchero.casillasMax=50;
         for(let j = 1; j <= pucheros[i].puchero.casillasMax; j++){
-            pucheros[i].puchero.casillas["ocupada"+j]=false;
+            pucheros[i].Puchero.casillas["ocupada"+j]=false;
         }
     }
 }
@@ -29,14 +29,14 @@ function pucheros(){
 
 function anadirFicha(jugador){
     //i=reroll dados Objeto
-    pucheros[i].puchero.fichasDentro++;
-    if(pucheros[i].puchero.fichasDentro<casillasMax){
-        pucheros[i].puchero.casillas[fichasDentro-1]=true;
-    }else if(pucheros[i].puchero.fichasDentro+1==casillasMax){
-        pucheros[i].puchero.fichasDentro=0;
-        jugador.puntacion+=pucheros[i].puchero.casillasMax;
-        for(let j = 0; j <= pucheros[i].puchero.casillas.length; j++){
-            pucheros[i].puchero.casillas[j]=false;
+    pucheros[i].Puchero.fichasDentro++;
+    if(pucheros[i].Puchero.fichasDentro<casillasMax){
+        pucheros[i].Puchero.casillas[fichasDentro-1]=true;
+    }else if(pucheros[i].Puchero.fichasDentro+1==casillasMax){
+        pucheros[i].Puchero.fichasDentro=0;
+        jugador.puntacion+=pucheros[i].Puchero.casillasMax;
+        for(let j = 0; j <= pucheros[i].Puchero.casillas.length; j++){
+            pucheros[i].Puchero.casillas[j]=false;
         }
     }
 
