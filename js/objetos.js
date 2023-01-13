@@ -10,6 +10,7 @@ function Jugador(numeroJugador,numeroFichas,puntuacion){
     this.numeroJugador=numeroJugador;
     this.numeroFichas=numeroFichas;
     this.puntuacion=puntuacion; 
+    
 }
 
 

@@ -13,7 +13,6 @@ for (let i = 1; i <= jugadores.value; i++) {
   array.push(jugador);
   
 }
-
 function primerTurno(){
     return Math.floor(Math.random() * (jugadores.value - 1 + 1) + 1)
 }
