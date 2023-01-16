@@ -1,14 +1,3 @@
-pucherin.js estan las funciones 
-JUGADOR: 
---> nºjugador,nºfichas y puntuacion. 
-PUCHEROS--> nºpuchero,nºfichas dentro. Nº pucheros = num max fichas dentro. 
-
-JUGABILIDAD: 
-Tirar dados. 
-Sumar fichas
-Si num max-> Aumenta puntuacion
-Cuando se quedue sin fichas se acaba la partidas. 
-
 
 Requisitos funcionales (reglas)
     - Si una ficha se completa, el jugador se lleva   
