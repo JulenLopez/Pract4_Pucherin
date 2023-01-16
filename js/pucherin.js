@@ -113,7 +113,6 @@ function pucheros() {
 }
 
 function saltarJugador() {
-    //Pues este cacharro al final ha sido mas tocho XD
     //Si el jugador no es el ultimo +1 antes segia sumando hasta el infinito y no molaba :P
     if (jugadorActual < numJugadores)
         jugadorActual++;
