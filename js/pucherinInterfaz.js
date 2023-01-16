@@ -108,14 +108,13 @@ function pintarPuchero(canvas){
 }
 
 // pintamos fichas aleatorias en el tablero
+/*
 for(let i=0; i < canvases.length; i++){
   let fichas = Math.ceil(Math.random()*(i+2));
    if (i>4) pintarCasilla(canvases[i],i+3,fichas)
   else pintarCasilla(canvases[i],i+2,fichas)
-
-  console.log(i+" "+(i+2)+ " "+fichas);
-}
+}*/
 
 //pintarCasilla(canvases[2], 4, 2); // pinta dos fichas en el 4
-//pintarCasilla(canvases[8], 11, 5); // pinta 5 fichas en el 11
-//pintarCasilla(canvases[6], 9, 3); // pinta 3 fichas en el 9
+//pintarCasilla(canvases[7], 11, 5); // pinta 5 fichas en el 11
+//pintarCasilla(canvases[5],109, 3); // pinta 3 fichas en el 9
