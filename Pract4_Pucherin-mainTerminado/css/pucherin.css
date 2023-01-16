@@ -1,0 +1,46 @@
+#botonAudio{
+  height: 75px;
+  width: 75px; 
+  background-image: url("../img/music.png");
+  background-position: center,center;
+  background-size: cover;
+}
+
+html,body{
+    height:100%;
+    padding:0;
+    margin:0;
+  }
+  *{
+    box-sizing:border-box;
+  }
+  .box{
+    position: relative;
+    width:900px;
+    height:650px;
+    background-color:grey;
+  }
+  
+  .container{
+    
+    width:100%;
+    height:100%;
+    background-color:#ccc;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+  }
+  
+  .casilla {
+    position: absolute;
+   
+  }
+  
+  .puchero {
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 42%;
+  }
